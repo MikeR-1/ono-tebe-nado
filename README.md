@@ -1,1 +1,1 @@
-https://github.com/MikeR-1/ono-tebe-nado-main.git
+https://github.com/MikeR-1/ono-tebe-nado.git
