@@ -1,34 +1,24 @@
-/* header */
-
-
 .header {
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
     padding: 92px 24px 96px 24px;
     place-items: center;
-    font-size: 18px;
-     /* align-items: center;
-
-  
-   padding: 92px 50px;
-   display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 24px 20px;
-    width: 1052px;
-    */
-    
+    font-size: 18px;    
 }
 
 .header-menu {
     padding-top: 3px;
 }
 
-
 .header__links-list {
     display: flex;
     list-style: circle;
     gap: 32px;
+}
+
+.header__links-list-item {
+    line-height: normal;
+    text-decoration: none;
 }
 
 .header__links-list-item_no-bullit {
@@ -57,7 +47,6 @@
 
 .address {
     place-self: start;
-    /*padding-top: 5px;*/
     width: 240px;
     font-style: normal;
     padding-right: 25.48px;
@@ -78,15 +67,12 @@
     margin-right: 25.48px;
 }
 
-
 .address-link {
     text-decoration: none;
     border-bottom: 1px #000 solid;
-    
 }
 
 .cover {
-    /*width: 1100px;*/
     background-image: url("../images/cover.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,7 +111,6 @@
     padding-top: 20px;
     display: block;
     box-sizing: content-box;
-
 }
 
 .aligned-text-right {
@@ -179,7 +164,6 @@
 
 .lots {
     margin: 180px 24px;
-    /*width: 1052px;*/
 }
 
 .lots__heading {
@@ -200,7 +184,6 @@
     margin-top: 27px;
     width: 430px;
     flex-grow: 1;
-    /*flex-shrink: 0;*/
     list-style: none;
     position: relative;
 }
@@ -212,14 +195,13 @@
 }
 
 .card {
-    height: 563px; /*100%;*/
+    min-height: 563px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   
 }
 
 .card_type_film {
@@ -283,21 +265,18 @@
     background-color: black;
     padding: 63px 46px;
     margin-left: 47px;
-   /* margin-right: 95px;*/
 }
 
 .about__title {
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bold;
-    /*padding-left: 50px;*/
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .about__text {
     width: 688px;
-    /*padding-left: 50px;*/
     box-sizing: content-box;
     display: flex;
     flex-direction: column;
@@ -331,7 +310,6 @@
     display: flex;
     flex-direction: row;
     gap: 48px;
-    /*list-style: none;*/
     place-self: end;
     align-self: start;
 }
