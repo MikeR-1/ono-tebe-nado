@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 148px 1fr;
     padding: 92px 24px 96px 24px;
     place-items: center;
-    font-size: 18px;    
+    font-size: 18px;
 }
 
 .header-menu {
@@ -27,6 +27,7 @@
 
 .header__link_active {
     text-decoration: none;
+    border-bottom: none;
 }
 
 .header__link {
@@ -35,9 +36,9 @@
     border-bottom: 1px #000 solid;
 }
 
-.header__link_active {
+/*.header__link_active {
     border-bottom: none;
-}
+}*/
 
 .header__logo-image {
     display: block;
